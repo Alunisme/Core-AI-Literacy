@@ -1,7 +1,7 @@
 <script setup>
 import { ref, computed, onMounted, onUnmounted } from 'vue'
-import fake4Img from './assets/fake4.png'
-import fake6Img from './assets/fake6.png'
+import fake4Img from './assets/fake4.PNG'
+import fake6Img from './assets/fake6.PNG'
 
 const scrollTo = (id) => {
   const element = document.getElementById(id)
@@ -249,7 +249,7 @@ onUnmounted(() => {
           <!-- 案例 1 -->
           <div class="insight-card glass-panel reveal-target">
             <div class="insight-image-wrapper">
-              <img src="./assets/fake1.png" alt="破綻百出的物理法則" />
+              <img src="./assets/fake1.PNG" alt="破綻百出的物理法則" />
             </div>
             <div class="insight-content">
               <h3>🚨 破綻百出的物理法則</h3>
@@ -260,7 +260,7 @@ onUnmounted(() => {
           <!-- 案例 2 -->
           <div class="insight-card glass-panel reverse reveal-target">
             <div class="insight-image-wrapper">
-              <img src="./assets/fake2.png" alt="負責任的自律標示" />
+              <img src="./assets/fake2.PNG" alt="負責任的自律標示" />
             </div>
             <div class="insight-content">
               <h3>✅ 負責任的自律標示</h3>
@@ -276,7 +276,7 @@ onUnmounted(() => {
             <div class="comparison-grid">
               <!-- 上半部：專家視角 -->
               <div class="comparison-item">
-                <img src="./assets/fake3.png" alt="專家視角" />
+                <img src="./assets/fake3.PNG" alt="專家視角" />
               </div>
               <div class="comparison-item flex-center">
                 <div class="detail-section">
@@ -319,7 +319,7 @@ onUnmounted(() => {
           <!-- 案例 5 (超級大重點) -->
           <div class="insight-card glass-panel highlight-card reverse reveal-target">
             <div class="insight-image-wrapper">
-              <img src="./assets/true.png" alt="真實作品的信任危機" />
+              <img src="./assets/true.PNG" alt="真實作品的信任危機" />
             </div>
             <div class="insight-content">
               <h3>💔 虛實難辨下的信任危機</h3>
@@ -437,7 +437,7 @@ body {
   font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: var(--bg-color);
   /* 使用漸層疊加深色遮罩，確保背景圖片不會太亮影響文字閱讀 */
-  background-image: linear-gradient(rgba(11, 15, 25, 0.7), rgba(11, 15, 25, 0.9)), url('./assets/bg.png');
+  background-image: linear-gradient(rgba(11, 15, 25, 0.7), rgba(11, 15, 25, 0.9)), url('./assets/bg.PNG');
   background-size: cover;
   background-position: center;
   background-attachment: fixed; /* 背景固定，創造視差滾動感 */
