@@ -437,7 +437,7 @@ body {
   font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: var(--bg-color);
   /* 使用漸層疊加深色遮罩，確保背景圖片不會太亮影響文字閱讀 */
-  background-image: linear-gradient(rgba(11, 15, 25, 0.7), rgba(11, 15, 25, 0.9)), url('./assets/bg.PNG');
+  background-image: linear-gradient(rgba(11, 15, 25, 0.7), rgba(11, 15, 25, 0.9)), url('./assets/bg.png');
   background-size: cover;
   background-position: center;
   background-attachment: fixed; /* 背景固定，創造視差滾動感 */
