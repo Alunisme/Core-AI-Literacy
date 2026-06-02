@@ -1,7 +1,7 @@
 <script setup>
 import { ref, computed, onMounted, onUnmounted } from 'vue'
 import fake4Img from './assets/fake4.png'
-import fake4_1Img from './assets/fake4_1.png'
+import fake6Img from './assets/fake6.png'
 
 const scrollTo = (id) => {
   const element = document.getElementById(id)
@@ -289,7 +289,7 @@ onUnmounted(() => {
               <div class="comparison-item">
                 <div class="carousel-container">
                   <transition name="fade-carousel" mode="out-in">
-                    <img :key="carouselIndex" :src="carouselIndex === 0 ? fake4Img : fake4_1Img" alt="資訊盲區留言" class="carousel-img" />
+                    <img :key="carouselIndex" :src="carouselIndex === 0 ? fake4Img : fake6Img" alt="資訊盲區留言" class="carousel-img" />
                   </transition>
 
                   <button class="carousel-btn prev-btn" @click="prevSlide" aria-label="上一張">
