@@ -123,17 +123,8 @@ const resultData = computed(() => {
 })
 
 const restartQuiz = () => {
-  // 1. 關閉測驗中與結果的畫面，回到初始狀態
   isQuizStarted.value = false
   isQuizFinished.value = false
-  
-  // 2. 重置進度與使用者的答案
-  currentQuestionIndex.value = 0
-  userAnswers.value = []
-  
-  // 3. 關鍵修正：不要把陣列清空成 []，而是讓它重新等於原本的題目
-  // 這樣網頁上的 Vue 計算屬性才不會因為找不到題目而崩潰
-  shuffledQuestions.value = [...questions] 
 }
 
 // --- 圖片輪播邏輯 ---
