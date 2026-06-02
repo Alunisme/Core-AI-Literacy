@@ -1,7 +1,7 @@
 <script setup>
 import { ref, computed, onMounted, onUnmounted } from 'vue'
 import fake4Img from './assets/fake4.png'
-import fake4_1Img from './assets/fake4-1.png'
+import fake4_1Img from './assets/fake4_1.png'
 
 const scrollTo = (id) => {
   const element = document.getElementById(id)
