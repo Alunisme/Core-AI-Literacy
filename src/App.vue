@@ -125,6 +125,8 @@ const resultData = computed(() => {
 const restartQuiz = () => {
   isQuizStarted.value = false
   isQuizFinished.value = false
+  // 直接呼叫開始測驗，它會幫你重設所有變數並重新洗牌
+  startQuiz()
 }
 
 // --- 圖片輪播邏輯 ---
