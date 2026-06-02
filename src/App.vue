@@ -123,8 +123,11 @@ const resultData = computed(() => {
 })
 
 const restartQuiz = () => {
-  // 直接呼叫開始測驗，它會幫你重設所有變數並重新洗牌
-  startQuiz()
+  isQuizStarted.value = false
+  isQuizFinished.value = false
+  currentQuestionIndex.value = 0
+  userAnswers.value = []       // 關鍵：清空舊答案
+  shuffledQuestions.value = [] // 關鍵：清空舊題目
 }
 
 // --- 圖片輪播邏輯 ---
