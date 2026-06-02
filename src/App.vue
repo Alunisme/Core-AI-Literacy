@@ -419,7 +419,7 @@ onUnmounted(() => {
 <style>
 /* 全局重置與基礎設定 */
 :root {
-  --bg-color: #0b0f19; /* 深色科技背景 */
+  ---color: #0b0f19; /* 深色科技背景 */
   --nav-bg: rgba(11, 15, 25, 0.75);
   --text-main: #f8fafc;
   --text-muted: #94a3b8;
